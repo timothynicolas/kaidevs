@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /kaidevs/
+
+# Example routes
+RewriteRule ^contact$ pages/contact.php [L]
+#RewriteRule ^about$ pages/about.php [L]
+#RewriteRule ^services$ pages/services.php [L]
+
+# Optional: Automatically remove .php extensions
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ $1.php [L]

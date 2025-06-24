@@ -1,0 +1,139 @@
+/* .mobile-navbar{
+    padding-top: 33px !important;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: -100%;
+    width: 100vw;
+    height: 100vh; 
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    display: none;
+}
+
+.active{
+    right: 0;
+    display: block;
+} */
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+.mobile-navbar {
+    padding-top: 33px !important;
+    position: fixed; /* Instead of absolute */
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+    z-index: 9999;
+    display: block; /* keep it in the flow */
+}
+
+.mobile-navbar.active {
+    transform: translateX(0);
+}
+
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container button{
+    background-color: transparent;
+    border: none;
+}
+
+.header-container img{
+    height: 1.75rem;
+}
+
+.mobile-navbar ul li{ 
+    display: flex;
+    gap: .75rem;
+    
+}
+
+.mobile-navbar ul li img{ 
+    
+    height: 1.125rem;
+
+}
+
+.mobile-navbar ul li button{ 
+    
+    display: flex;
+    gap: .75rem;
+    font-size: 1.125rem;
+    background-color: transparent;
+    border: none;
+
+}
+
+
+
+.mobile-navbar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.125rem;
+    list-style-type: none;
+}
+
+.mobile-navbar-content{
+    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: space-between;
+    
+}
+
+.mobile-navbar-content .btn-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+/* MEDIA QUERIES */
+
+@media(min-width: 375px){
+   
+}
+
+
+@media(min-width: 480px){
+   
+}
+
+@media(min-width: 640px){
+    
+
+}
+
+@media(min-width: 768px){
+   
+    
+}
+
+@media(min-width: 1024px){
+   .mobile-navbar{
+    display: none !important;
+   }
+}
+
+@media(min-width: 1280px){
+    
+}
+
+@media(min-width: 1536px){
+    
+}

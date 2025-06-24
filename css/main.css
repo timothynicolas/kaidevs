@@ -1,0 +1,200 @@
+@import url('navbar.css');
+@import url('mobile-navbar.css');
+@import url('hero.css');
+@import url('about.css');
+@import url('services.css');
+@import url('cta.css');
+@import url('footer.css');
+@import url('modal.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    padding: 0px 20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    grid-template-areas: 
+    'hero-img hero-img hero-img hero-img'
+
+    'hero-text hero-text hero-text hero-text'
+
+    'about-img about-img about-img about-img'
+
+    'about-text about-text about-text about-text'
+
+    'services-text services-text services-text services-text'
+
+    'services-carousel services-carousel services-carousel services-carousel'
+
+    'cta-img cta-img cta-img cta-img'
+    
+    'cta-text cta-text cta-text cta-text'
+
+    'footer footer footer footer'
+    
+    ;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto; 
+    grid-gap: 3rem 1rem;
+    
+}
+
+/* MEDIA QUERIES */
+
+@media(min-width: 375px){
+   
+}
+
+
+@media(min-width: 480px){
+   
+}
+
+@media(min-width: 640px){
+    .grid-container{
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: auto auto auto auto auto auto auto auto;
+        grid-template-areas: 
+       
+        'hero-img hero-img hero-img hero-img hero-img hero-img'
+
+        'hero-text hero-text hero-text hero-text hero-text hero-text'
+
+        'about-img about-img about-img about-img about-img about-img'
+
+        'about-text about-text about-text about-text about-text about-text'
+
+        'services-text services-text services-text services-text services-text services-text'
+
+        'services-carousel services-carousel services-carousel services-carousel services-carousel services-carousel'
+
+        'cta-img cta-img cta-img cta-img cta-img cta-img'
+
+        'cta-text cta-text cta-text cta-text cta-text cta-text'
+
+        'footer footer footer footer footer footer'
+        
+        
+        ;
+        grid-gap: 4rem 1rem;
+    }
+    .container{
+        padding: 0px 32px;
+    }
+
+    .service-description{
+        height: 12rem;
+    }
+
+}
+
+@media(min-width: 768px){
+    .container{
+        padding: 0px 64px;
+    }
+    .grid-container{
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows:auto auto auto auto auto auto auto;
+        grid-template-areas: 
+        
+        'hero-text hero-text hero-text hero-text hero-img hero-img hero-img hero-img'
+
+        'about-img about-img about-img about-img about-text about-text about-text about-text'
+
+        'services-text services-text services-text services-text services-text services-text services-text services-text'
+
+        'service1 service1 service1 service1 service2 service2 service2 service2'
+
+        'service3 service3 service3 service3 service4 service4 service4 service4'
+
+        
+        'cta-text cta-text cta-text cta-text cta-img cta-img cta-img cta-img'
+
+        'footer footer footer footer footer footer footer footer'
+        
+        
+        
+        ;
+    }
+
+    .services-carousel-container{
+        display: none;
+    }
+    
+}
+
+@media(min-width: 1024px){
+    .container{
+        padding: 0px 100px;
+    }
+
+    .grid-container{
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows:24rem 24rem 4rem auto auto auto auto;
+        grid-template-areas: 
+        
+        'hero-text hero-text hero-text hero-text hero-text hero-text hero-img hero-img hero-img hero-img hero-img hero-img'
+
+        'about-img about-img about-img about-img about-img about-img about-text about-text about-text about-text about-text about-text'
+
+        'services-text services-text services-text services-text services-text services-text services-text services-text services-text services-text services-text services-text'
+
+        'service1 service1 service1 service1 service1 service1 service2 service2 service2 service2 service2 service2'
+        
+        'service3 service3 service3 service3 service3 service3 service4 service4 service4 service4 service4 service4'
+
+        'cta-text cta-text cta-text cta-text cta-text cta-img cta-img cta-img cta-img cta-img cta-img cta-img'
+
+        'footer footer footer footer footer footer footer footer footer footer footer footer'
+        
+        ;
+    }
+}
+
+@media(min-width: 1280px){
+    .container{
+        padding: 0px 120px;
+    }
+
+    .grid-container{
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows:auto 24rem 12rem auto auto auto;
+        grid-template-areas: 
+        
+        'hero-text hero-text hero-text hero-text hero-text hero-img hero-img hero-img hero-img hero-img hero-img hero-img'
+
+        'about-img about-img about-img about-img about-img about-img about-text about-text about-text about-text about-text about-text'
+
+        'services-text services-text services-text services-text services-text services-text services-text services-text services-text services-text services-text services-text'
+
+        'service1 service1 service1 service2 service2 service2 service3 service3 service3 service4 service4 service4'
+
+        'cta-text cta-text cta-text cta-text cta-text cta-img cta-img cta-img cta-img cta-img cta-img cta-img'
+
+        'footer footer footer footer footer footer footer footer footer footer footer footer'
+        
+        
+        ;
+    }
+}
+
+@media(min-width: 1536px){
+    .container{
+        padding: 0px 130px;
+    }
+}
