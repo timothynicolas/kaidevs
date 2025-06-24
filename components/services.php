@@ -16,7 +16,7 @@
                     <p>Already have a developer? We'll handle the design for you!</p>
                     <p>We create a custom website design that reflects your brand's personality—delivered in clean, organized Figma design file.</p>
 
-                    <a href="<?php echo BASE_URL;?>/pages/contact.php" class="service-btn">Choose Plan</a>
+                    <a href="<?php echo BASE_URL;?>pages/contact.php" class="service-btn">Choose Plan</a>
                 </div>
                 
                 <hr>
@@ -85,7 +85,7 @@
                     <p>Already got a design? We'll bring it to life!</p>
                     <p>You provife the design—we'll handle the responsive, pixel-accurate front-end code. Ideal for static sites or dev handoff.</p>
 
-                    <a href="<?php echo BASE_URL;?>/pages/contact.php" class="service-btn">Choose Plan</a>
+                    <a href="<?php echo BASE_URL;?>pages/contact.php" class="service-btn">Choose Plan</a>
                 </div>
                 
                 <hr>
@@ -155,7 +155,7 @@
                     <p>We design and code the website for you. Simple and easy.</p>
                     <p>We handle both the website design and development. Great for portfolios, landing pages, and basic business sites.</p>
 
-                    <a href="<?php echo BASE_URL;?>/pages/contact.php" class="service-btn special-btn">Choose Plan</a>
+                    <a href="<?php echo BASE_URL;?>pages/contact.php" class="service-btn special-btn">Choose Plan</a>
                 </div>
                 
                 <hr>
@@ -224,7 +224,7 @@
                     <p>Design, code, and advanced features—all in one.</p>
                     <p>This all-in-one package combines design, development, and powerful tools like booking and online stores.</p>
 
-                    <a href="<?php echo BASE_URL;?>/pages/contact.php" class="service-btn">Choose Plan</a>
+                    <a href="<?php echo BASE_URL;?>pages/contact.php" class="service-btn">Choose Plan</a>
                 </div>
                 
                 <hr>
@@ -295,7 +295,7 @@
         <p class="title">Website Design</p>
         <p>Already have a developer? We'll handle the design for you!</p>
         <p>We create a custom website that reflects your brand's personality—delivered in clean, organized Figma design file.</p>
-        <a href="<?php echo BASE_URL;?>/pages/contact.php">Choose Plan</a>
+        <a href="<?php echo BASE_URL;?>pages/contact.php">Choose Plan</a>
     </div>
     <hr>
     <div class="inclusion-container">
@@ -354,7 +354,7 @@
         <p class="title">Website Development</p>
         <p>Already got a design? We'll bring it to life!</p>
         <p>You provide the design—we'll handle the responsive, pixel-accurate front-end code. Ideal for static sites or dev handoff. </p>
-        <a href="<?php echo BASE_URL;?>/pages/contact.php">Choose Plan</a>
+        <a href="<?php echo BASE_URL;?>pages/contact.php">Choose Plan</a>
     </div>
     <hr>
     <div class="inclusion-container">
@@ -417,7 +417,7 @@
         <p class="title">Complete Website Build</p>
         <p>We design and code the website for you. Simple and Easy.</p>
         <p>We handle both the website design and development. Great for portfolios, landing pages, and basic business sites.</p>
-        <a href="<?php echo BASE_URL;?>/pages/contact.php" class="services-plan3-button">Choose Plan</a>
+        <a href="<?php echo BASE_URL;?>pages/contact.php" class="services-plan3-button">Choose Plan</a>
     </div>
     <hr>
     <div class="inclusion-container">
@@ -476,7 +476,7 @@
         <p class="title">Business Website Build</p>
         <p>Design, code, and advanced features—all in one.</p>
         <p>This package combines design, development, and powerful technologies that suit your business needs.</p>
-        <a href="<?php echo BASE_URL;?>/pages/contact.php">Choose Plan</a>
+        <a href="<?php echo BASE_URL;?>pages/contact.php">Choose Plan</a>
     </div>
     <hr>
     <div class="inclusion-container">

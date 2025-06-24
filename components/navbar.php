@@ -7,7 +7,7 @@
         <a href="<?php echo BASE_URL;?>#services"><button>Services</button></a>
         <button popovertarget="modalUnavailable">Reviews</button>
         <button popovertarget="modalUnavailable">Portfolio</button>
-        <a href="<?php echo BASE_URL;?>/pages/contact.php"><button>Contact</button></a>
+        <a href="<?php echo BASE_URL;?>pages/contact.php"><button>Contact</button></a>
         
     </div>
     
