@@ -1,4 +1,4 @@
- <section class=" container mobile-navbar">
+<section class=" container mobile-navbar">
         <div class="header-container">
 
             <p class="logo">Kaidevs</p>
@@ -14,7 +14,7 @@
                     </li>
                 </a>
 
-                <a href="<?php echo BASE_URL;?>/#about" class="mobile-navbar-item">
+                <a href="<?php echo BASE_URL;?>#about" class="mobile-navbar-item">
                     <li>
                         <img src="<?php echo BASE_URL; ?>assets/mobile-navbar-about.svg" alt="about icon">About
                     </li>
@@ -38,7 +38,7 @@
                         <img src="<?php echo BASE_URL; ?>assets/mobile-navbar-portfolio.svg" alt="portfolio icon">Portfolio
                     </button>
                 </li>
-                 <a href="<?php echo BASE_URL;?>/pages/contact.php" class="mobile-navbar-item">
+                 <a href="<?php echo BASE_URL;?>pages/contact.php" class="mobile-navbar-item">
                     <li>
                         <img src="<?php echo BASE_URL; ?>assets/mobile-navbar-contact.svg" alt="home icon">Contact
                     </li>
@@ -48,7 +48,7 @@
                 
             </ul>
             <div class="btn-container">
-                <a href="https://calendly.com/kaidevs/consultation" target="_blank" rel="noopener noreferrer"><button class="hero-primary-btn">Book a Call</button></a>
+                <a href="https://calendly.com/kaidevs/consultation" target="_blank" rel="noopener noreferrer"><button class="hero-primary-btn">Book a Call<img src="<?php echo BASE_URL; ?>assets/navbar-call.svg" class="navbar-call-icon"></button></a>
 
             </div>
             

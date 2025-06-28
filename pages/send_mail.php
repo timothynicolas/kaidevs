@@ -14,6 +14,15 @@ use PHPMailer\PHPMailer\Exception;
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    // BOT SPAM DETECTION
+
+    if (!empty($_POST['website'])) {
+        // Honeypot field is filled => bot detected
+        header('Location: contact.php?error=spam');
+        exit();
+    }
+
     $name = htmlspecialchars($_POST["name"]);
     $business = htmlspecialchars($_POST["business_name"]);
     $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);

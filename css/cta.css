@@ -12,19 +12,26 @@
 }
 
 .cta-button {
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+    justify-content: center;
     background-color: #0083FA;
+    /* background-color: red; */
     border: none;
     width: 100%;
     font-size: .875rem;
     padding: 1rem 1.25rem;
     border-radius: 50px;
-    /* font-weight: bold; */
     color: white;
     cursor: pointer;
-    text-align: center;
-    display: inline-block;
+    /* display: inline-block; */
     text-decoration: none;
     transition: all 0.3s ease;
+}
+
+.cta-button img{
+    transform: rotate(45deg);
 }
 
 .cta-button:hover {
