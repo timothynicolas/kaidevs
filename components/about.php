@@ -1,8 +1,8 @@
-<section class="about-image-container" >
+<section class="about-image-container" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
     <img class="hero-image" src="<?php echo BASE_URL; ?>assets/about-image.svg">
 </section>
             
-<section class="about-text-container" id="about">
+<section class="about-text-container" id="about" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
                 
     <p class="secondary-header">We are <span class="primary-header underline">Kaidevs</span></p>
 

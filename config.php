@@ -1,6 +1,8 @@
 <?php
-// define('BASE_URL', '/kaidevs-website/'); // for XAMPP (localhost)
+// for XAMPP (localhost)
+ //define('BASE_URL', '/kaidevs-website/'); 
 
-define('BASE_URL', '/');// for LIVE
+// for LIVE
+define('BASE_URL', '/'); 
 
 ?>

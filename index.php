@@ -7,6 +7,10 @@
     <title>Kaidevs | Home</title>
     <link rel="stylesheet" href="css/main.css">
 
+    <!-- Animate On Scroll -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- GOOGLE FONTS -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,7 +61,9 @@
 
         </div> <!-- grid-container -->
     </div> <!-- container -->
-
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <script type="module" src="script.js"></script>
 
 </body>

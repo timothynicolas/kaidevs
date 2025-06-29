@@ -1,8 +1,8 @@
 <section class="hero-image-container">
-    <img class="hero-image" src="<?php echo BASE_URL; ?>assets/hero-image.svg">
+    <img class="hero-image" src="<?php echo BASE_URL; ?>assets/hero-image.svg" data-aos="fade-up" data-aos-duration="800">
 </section>
 
-<section class="hero-text-container">
+<section class="hero-text-container" data-aos="fade-up" data-aos-duration="800">
     <div>
         <p class="primary-header">Building Websites</p>
         <p class="secondary-header"><span class="secondary-header underline">One Pixel </span>at a Time</p>

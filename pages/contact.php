@@ -8,6 +8,10 @@
     <title>Kaidevs | Contact</title>
     <link rel="stylesheet" href="../css/contact.css">
 
+    <!-- Animate On Scroll -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- GOOGLE FONTS -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,29 +49,29 @@
 
             <section class="contact-input-container">
                 
-                <p class="secondary-header">Let's <span class="primary-header underline">Connect</span></p>
-                <p>Whether you have a question, need a quote, or you're ready to kick off your project — just fill out the form and we'll get back to you shortly!</p>
+                <p class="secondary-header" data-aos="fade-up" data-aos-duration="800">Let's <span class="primary-header underline">Connect</span></p>
+                <p data-aos="fade-up" data-aos-duration="800">Whether you have a question, need a quote, or you're ready to kick off your project — just fill out the form and we'll get back to you shortly!</p>
 
                 <form method="POST" action="send_mail.php">
                     <input type="text" name="website"  tabindex="-1" autocomplete="off" placeholder="website" style="display:none">
 
 
-                    <div class="form-group">
+                    <div class="form-group" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                         <input type="text" name="name" class="form-input" placeholder=" " required />
                         <label for="name" class="form-label">Name</label>
                     </div>
 
-                    <div class="form-group">
+                    <div class="form-group" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
                         <input type="text" name="business_name" class="form-input" placeholder=" " required />
                         <label for="business_name" class="form-label">Business Name</label>
                     </div>
 
-                    <div class="form-group">
+                    <div class="form-group" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
                         <input type="email" name="email" class="form-input" placeholder=" " required />
                         <label for="email" class="form-label">Email Address</label>
                     </div>
 
-                    <div class="form-group">
+                    <div class="form-group" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">
                         <select name="service" id="service" class="form-input" required>
                             <option value="" disabled selected hidden>Select a Service</option>
                             <option value="Website Design">Website Design</option>
@@ -78,21 +82,23 @@
                         </select>
                         <label for="service" class="form-label">Service</label>
                     </div>
+                    <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">
 
-                    <div class="form-group">
-                        <textarea name="message" class="form-input" placeholder=" " required></textarea>
-                        <label for="message" class="form-label">Message</label>
+                        <div class="form-group">
+                            <textarea name="message" class="form-input" placeholder=" " required></textarea>
+                            <label for="message" class="form-label">Message</label>
+                        </div>
+    
+                        <button type="submit" class="submit-btn">
+                            Send Message
+                            <img src="<?php echo BASE_URL; ?>assets/contact-plane.svg" alt="Plane icon">
+                        </button>
                     </div>
-
-                    <button type="submit" class="submit-btn">
-                        Send Message
-                        <img src="<?php echo BASE_URL; ?>assets/contact-plane.svg" alt="Plane icon">
-                    </button>
                 </form>
 
                 
             </section>
-            <section class="contact-img-container">
+            <section class="contact-img-container" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                 <img src="<?php echo BASE_URL; ?>assets/form-img.svg" class="contact-image" alt="">
             </section>
 
@@ -114,7 +120,8 @@
         </script>
     <?php endif; ?>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <script type="module" src="<?php echo BASE_URL; ?>js/contact.js"></script>
 
     

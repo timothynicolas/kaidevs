@@ -1,8 +1,8 @@
-<section class="services-text-container" id="services">
+<section class="services-text-container" id="services" data-aos="fade-up" data-aos-duration="800" data-aos-offset="100">
     <p class="secondary-header">Our <span class="primary-header underline">Services</span></p>
 </section>
 
-<section class="services-carousel-container">
+<section class="services-carousel-container" data-aos="fade-up" data-aos-duration="800" data-aos-offset="100">
     <div class="carousel-container">
             <button id="prevBtn" class="nav-btn"><img src="assets/services-left.svg" class="icon"></button>
 
@@ -290,7 +290,7 @@
     </div>
 </section>
 
-<section class="services-plan1 plan">
+<section class="services-plan1 plan" data-aos="fade-up" data-aos-duration="800" data-aos-offset="100">
     <div class="service-desc">
         <p class="title">Website Design</p>
         <p>Already have a developer? We'll handle the design for you!</p>
@@ -349,7 +349,7 @@
     </div>
 </section>
 
-<section class="services-plan2 plan">
+<section class="services-plan2 plan" data-aos="fade-up" data-aos-duration="800" data-aos-offset="100"  data-aos-delay="200">
     <div class="service-desc">
         <p class="title">Website Development</p>
         <p>Already got a design? We'll bring it to life!</p>
@@ -409,7 +409,7 @@
 </section>
 
 
-<section class="services-plan3 plan">
+<section class="services-plan3 plan" data-aos="fade-up" data-aos-duration="800" data-aos-offset="100"  data-aos-delay="400">
     
     <div class="popular-badge">MOST POPULAR</div> 
 
@@ -471,7 +471,7 @@
     </div>
 </section>
 
-<section class="services-plan4 plan">
+<section class="services-plan4 plan" data-aos="fade-up" data-aos-duration="800" data-aos-offset="100"  data-aos-delay="600">
     <div class="service-desc">
         <p class="title">Business Website Build</p>
         <p>Design, code, and advanced features—all in one.</p>
