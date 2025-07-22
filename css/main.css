@@ -145,7 +145,7 @@ html{
 
     .grid-container{
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows:24rem 24rem 4rem auto auto auto auto;
+        grid-template-rows:auto auto auto auto auto auto auto;
         grid-template-areas: 
         
         'hero-text hero-text hero-text hero-text hero-text hero-text hero-img hero-img hero-img hero-img hero-img hero-img'
@@ -173,7 +173,7 @@ html{
 
     .grid-container{
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows:auto 24rem 12rem auto auto auto;
+        grid-template-rows:auto auto auto auto auto auto;
         grid-template-areas: 
         
         'hero-text hero-text hero-text hero-text hero-text hero-img hero-img hero-img hero-img hero-img hero-img hero-img'

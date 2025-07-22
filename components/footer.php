@@ -5,8 +5,8 @@
         <div class="social-links">
             <img src="<?php echo BASE_URL; ?>assets/footer-instagram.svg" alt="Instagram">
             <img src="<?php echo BASE_URL; ?>assets/footer-fb.svg" alt="Facebook">
-            <img src="<?php echo BASE_URL; ?>assets/footer-x.svg" alt="X / Twitter">
             <img src="<?php echo BASE_URL; ?>assets/footer-tiktok.svg" style="height: 1.5rem" alt="Tiktok">
+            <img src="<?php echo BASE_URL; ?>assets/footer-email.svg" alt="Email / Gmail">
         </div>
     </div>
 </footer>

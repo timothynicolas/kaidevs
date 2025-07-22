@@ -23,11 +23,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     }
 
+    // Time-based bot protection
+    $renderedTime = isset($_POST['form_rendered']) ? (int)$_POST['form_rendered'] : 0;
+    $currentTime = time();
+
+    if (($currentTime - $renderedTime) < 10) {
+        header('Location: contact.php?error=fastsubmit');
+        exit();
+    }
+
+
+    // Sanitize inputs
     $name = htmlspecialchars($_POST["name"]);
     $business = htmlspecialchars($_POST["business_name"]);
     $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
     $service = htmlspecialchars($_POST["service"]);
     $message = htmlspecialchars($_POST["message"]);
+
+     
+    // Check for spammy links in the message
+    if (preg_match('/https?:\/\/|www\.|\.com|\.net|\.xyz/i', $message)) {
+        header('Location: contact.php?error=linkdetected');
+        exit();
+    }
 
 
     $mail = new PHPMailer(true);

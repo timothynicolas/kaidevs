@@ -39,6 +39,7 @@ body.no-scroll {
 .mobile-navbar ul li{ 
     display: flex;
     gap: .75rem;
+    color: black;
     
 }
 
@@ -51,6 +52,7 @@ body.no-scroll {
 .mobile-navbar ul li button{ 
     
     display: flex;
+    color: black;
     gap: .75rem;
     font-size: 1.125rem;
     background-color: transparent;

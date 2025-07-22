@@ -1,5 +1,14 @@
 <section class="hero-image-container">
-    <img class="hero-image" src="<?php echo BASE_URL; ?>assets/hero-image.svg" data-aos="fade-up" data-aos-duration="800">
+    <lottie-player 
+        src="<?php echo BASE_URL; ?>assets/Hero-Image.json"
+        data-aos="fade-up" 
+        data-aos-duration="800"
+        background="transparent"  
+        speed="1"  
+        loop  
+        autoplay 
+        class="hero-image">
+    </lottie-player>
 </section>
 
 <section class="hero-text-container" data-aos="fade-up" data-aos-duration="800">

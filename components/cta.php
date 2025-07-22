@@ -12,5 +12,14 @@
 </section>
 
 <section class="cta-img-container" data-aos="fade-up" data-aos-duration="800" data-aos-offset="100">
-    <img class="cta-img" src="<?php echo BASE_URL; ?>assets/cta-img.svg">
+   <lottie-player 
+        src="<?php echo BASE_URL; ?>assets/Cta-Image-v2.json"
+        data-aos="fade-up" 
+        data-aos-duration="800"
+        background="transparent"  
+        speed="1"  
+        loop  
+        autoplay 
+        class="cta-img">
+    </lottie-player>
 </section>

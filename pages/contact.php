@@ -55,6 +55,9 @@
                 <form method="POST" action="send_mail.php">
                     <input type="text" name="website"  tabindex="-1" autocomplete="off" placeholder="website" style="display:none">
 
+                    <input type="hidden" name="form_rendered" value="<?php echo time(); ?>">
+
+
 
                     <div class="form-group" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                         <input type="text" name="name" class="form-input" placeholder=" " required />

@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     grid-area: hero-img;
-    /* border: 1px solid red; */
+    
 }
 
 .hero-image{
@@ -24,7 +24,6 @@
     text-align: center;
     grid-area: hero-text;
     gap: 1.5rem;
-    /* border: 1px solid red; */
 }
 
 .hero-text-container .subheader{
