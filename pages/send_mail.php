@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $currentTime = time();
 
     if (($currentTime - $renderedTime) < 10) {
-        header('Location: contact.php?error=fastsubmit');
+        header('Location: contact.php?botdetected');
         exit();
     }
 
@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
      
     // Check for spammy links in the message
     if (preg_match('/https?:\/\/|www\.|\.com|\.net|\.xyz/i', $message)) {
-        header('Location: contact.php?error=linkdetected');
+        header('Location: contact.php?linkdetected');
         exit();
     }
 

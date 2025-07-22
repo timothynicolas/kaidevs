@@ -42,6 +42,8 @@
     <?php include '../components/navbar.php'; ?>
     <?php include '../components/modal.php'; ?>
     <?php include '../components/message-sent-modal.php'; ?>
+    <?php include '../components/spam-detected-modal.php'; ?>
+    <?php include '../components/bot-detected-modal.php'; ?>
     <?php include '../components/mobile-navbar.php'; ?>
 
     <div class="container">
@@ -118,6 +120,22 @@
         <script>
             window.addEventListener('DOMContentLoaded', () => {
                 const modal = document.getElementById('modalSuccess');
+                if (modal) modal.showPopover();
+            });
+        </script>
+    <?php endif; ?>
+    <?php if (isset($_GET['linkdetected'])): ?>
+        <script>
+            window.addEventListener('DOMContentLoaded', () => {
+                const modal = document.getElementById('modalSpam');
+                if (modal) modal.showPopover();
+            });
+        </script>
+    <?php endif; ?>
+    <?php if (isset($_GET['botdetected'])): ?>
+        <script>
+            window.addEventListener('DOMContentLoaded', () => {
+                const modal = document.getElementById('modalBot');
                 if (modal) modal.showPopover();
             });
         </script>
